@@ -23,7 +23,8 @@
 
             // -------------------------------------
             // Inputs
-            TEXTURE2D(_CameraDepthTexture);       SAMPLER(sampler_CameraDepthTexture);
+            TEXTURE2D(_CameraDepthTexture);
+            SAMPLER(sampler_CameraDepthTexture);
 
             // -------------------------------------
             // Structs

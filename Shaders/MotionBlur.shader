@@ -17,7 +17,8 @@
     // -------------------------------------
     // Inputs
     TEXTURE2D_X(_MainTex);
-    TEXTURE2D(_MotionVectorTexture);       SAMPLER(sampler_MotionVectorTexture);
+    TEXTURE2D(_MotionVectorTexture);
+    SAMPLER(sampler_MotionVectorTexture);
 
     float _Intensity;
     float4 _MainTex_TexelSize;
